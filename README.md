@@ -15,9 +15,20 @@ wappalyzer-cli --target https://littleroom.studio/ --disable-ssl --output output
 Example output:
 ```json
 {
-  "Google Web Server":{},
-  "HSTS":{},
-  "HTTP/3":{}
+  "domain": "littleroom.studio",
+  "results": {
+    "HSTS": {},
+    "Image Placeholders:1.2.0": {},
+    "Modern Image Formats:2.5.1": {},
+    "MySQL": {},
+    "Nginx": {},
+    "PHP": {},
+    "Performance Lab:3.9.0": {},
+    "The SEO Framework": {},
+    "WordPress": {},
+    "WordPress Block Editor": {},
+    "WordPress Site Editor": {}
+  }
 }
 ```
 
