@@ -1,6 +1,6 @@
 # Wappalyzer CLI
 
-CLI app based upon [projectdiscovery/wappalyzergo](https://github.com/projectdiscovery/wappalyzergo).
+CLI app based on [projectdiscovery/wappalyzergo](https://github.com/projectdiscovery/wappalyzergo), forked from [Webklex/wappalyzer](https://github.com/Webklex/wappalyzer).
 
 
 ## Installation
@@ -22,17 +22,17 @@ Example output:
 ```
 
 ### Available arguments
-```bash
+```markdown
 Usage of wappalyzer:
-  --target string  Target to analyze
-  --output string  Output file
-  --method string  Request method (default "GET")
-  --header value   Set additional request headers
-  --disable-ssl    Don't verify the site's SSL certificate
-  --json           Json output format
-  --no-color       Disable color output
-  --silent         Don't display any output
-  --version        Show version and exit
+  --target https://example.com/  Target to analyze
+  --output output_file.txt       Output file
+  --method string                Request method (default "GET")
+  --header value                 Set additional request headers
+  --disable-ssl                  Don't verify the site's SSL certificate
+  --json                         JSON output format
+  --no-color                     Disable colored output
+  --silent                       Don't display any output
+  --version                      Show version and exit
 ```
 
 
