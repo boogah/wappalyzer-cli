@@ -6,7 +6,7 @@ toolchain go1.24.3
 
 require (
 	github.com/fatih/color v1.18.0
-	github.com/projectdiscovery/wappalyzergo v0.2.30
+	github.com/projectdiscovery/wappalyzergo v0.2.34
 )
 
 require (
