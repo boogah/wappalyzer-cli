@@ -1,17 +1,17 @@
 module github.com/boogah/wappalyzer-cli
 
-go 1.23.0
+go 1.24.0
 
 toolchain go1.24.3
 
 require (
 	github.com/fatih/color v1.18.0
-	github.com/projectdiscovery/wappalyzergo v0.2.39
+	github.com/projectdiscovery/wappalyzergo v0.2.50
 )
 
 require (
 	github.com/mattn/go-colorable v0.1.14 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
-	golang.org/x/net v0.42.0 // indirect
-	golang.org/x/sys v0.34.0 // indirect
+	golang.org/x/net v0.44.0 // indirect
+	golang.org/x/sys v0.36.0 // indirect
 )
